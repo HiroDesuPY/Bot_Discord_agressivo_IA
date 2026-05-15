@@ -173,7 +173,14 @@ async def pergunta(interac: discord.Interaction, *, pergunta: str):
 
 
 #--------------bot run----------------------------------
-bot.run(TOKEN)
+
+def main():
+    bot.run(TOKEN)
+
+
+
+if __name__ == "__main__":
+    main()
 
 
 
